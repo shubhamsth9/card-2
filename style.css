@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #23252C;
+    color: #2B283A;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F5F5F5;
+    width: 300px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.Info > h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 0px;
+    margin-top: 30px;
+}
+
+.Info > h5{
+    color: #F47D27;
+    font-size: 13;
+    font-weight: 400;
+    
+}
+
+.Info--img{
+    width: 300px;
+    align-self: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Info--button{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  width: 115px;
+  height: 34px;
+  color: white;
+  padding: 9px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1{
+    background-color: #FFFFFF;
+    color: #374151;
+    border: 1px solid #D1D5DB;
+}
+.button1:hover{
+    background-color: #F0F0F0;
+    border: 1px solid #2B283A;
+}
+
+.button2{
+    background-color: #297FE5;
+    color: #FFFFFF;
+    border: 1px solid #297FE5;
+}
+.button2:hover{
+    background-color: #1867C3;
+    border: 1px solid #1867C3;
+}
+
+.Info--btn1{
+    color: black;
+}
+
+
+.About{
+    text-align: left;
+    font-size: 12px;
+    margin: 20px 25px 0px 25px;
+}
+
+.About > h3{
+    margin: 5px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.Interests{
+    text-align: left;
+    font-size: 12px;
+    margin: 0px 25px 15px 25px;
+}
+
+.Interests > h3{
+    margin: 10px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Footer{
+    background-color: #D5D4D8;
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fa {
+  font-size: 20px;
+  padding: 4px;
+  width: 28px;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 4px;
+  background: #918E9B;
+  opacity: 0.8;
+  color: #D5D4D8;
+  transition-duration: 0.4s;
+}
+
+.fa:hover {
+    opacity: 1;
+    color: white;
+}
+
+p{
+    color: #4A4E74;
+}
